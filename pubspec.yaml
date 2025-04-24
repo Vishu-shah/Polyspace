@@ -11,10 +11,14 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  firebase_core: ^1.10.0
+  firebase_auth: ^3.3.4 # Add any Firebase services like authentication, firestore etc.
+
 
   cupertino_icons: ^1.0.2
 
 dev_dependencies:
+  flutter_lints: ^5.0.0
   flutter_test:
     sdk: flutter
 

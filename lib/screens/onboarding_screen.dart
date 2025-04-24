@@ -115,20 +115,24 @@ class OnboardPage extends StatelessWidget {
         ),
         Padding(
           padding: const EdgeInsets.all(32),
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.end,
-            crossAxisAlignment: CrossAxisAlignment.start,
+          child: Stack( // Changed to Stack to allow absolute positioning
             children: [
-              Text(
-                title,
-                style: const TextStyle(fontSize: 32, fontWeight: FontWeight.bold),
+              Positioned(
+                left: 12, // X position
+                top: 122, // Y position
+                child: Text(
+                  title,
+                  style: const TextStyle(fontSize: 32, fontWeight: FontWeight.bold),
+                ),
               ),
-              const SizedBox(height: 10),
-              Text(
-                subtitle,
-                style: const TextStyle(fontSize: 18),
+              Positioned(
+                left: 19,
+                top: 164,
+                child: Text(
+                  subtitle,
+                  style: const TextStyle(fontSize: 18),
+                ),
               ),
-              const SizedBox(height: 120),
             ],
           ),
         )

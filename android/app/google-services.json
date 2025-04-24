@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "430779539965",
+    "project_id": "polyspace-project",
+    "storage_bucket": "polyspace-project.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:430779539965:android:44c0b4f4bac84d0630f994",
+        "android_client_info": {
+          "package_name": "com.example.polyspace"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxSBTwKIkse1ZGUjDuhp0_e1XumJvGVsY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
